@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Number Guessing Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+        <section class="mt-5">  
+                <div class="">
+                <div class="container" >
+                  <div class="row justify-content-center">
+                    <div class="col">
+                   <h2 class="mt-2 font1 font-weight-bold text-center " >
+                    NUMBER GUESSING GAME 
+                      </h2>
+                       <p class="text-center my-3">
+                    This is a number guessing game using random function. You have 10 times to guess the number from 1 to 100.
+                    <br>Hope you enjoy it!!! 
+                      </p>
+                      <p class="text-center my-3"> You've got 30 seconds to guess the number. Press the "Start" button to start the game!  </p>
+                      <p class="text-center my-3"> Remaining time: <span id="timer"></span> seconds  </p>
+                      <div class="row my-3 text-center">
+                    <div class="col text-center">
+                    Put in the number of your guess: <br> 
+                    <input id="inputnum" type="text"> <br>
+                     <p id="repeat"></p>
+                   </div>
+                    <div class="col text-left">
+                    <button id="guessclick" type="submit"> Check your Guess! </button>
+                    <button class="mx-3"id="nextround" type="submit"> Next Round </button>
+                    <button id="restart" class="my-2 " type="reset">Start over!</button> 
+                 
+                  </div class="text-center">
+
+                    </div>
+                    <div class="row  my-3 border" >
+                    <div class="col">
+                    <h4> RESULT </h4>    
+                    <p class="border"> This is the results of your guesses: <br>
+                       
+                        <div id="result" class="alert"> 
+
+                        </div>
+                      
+ 
+                    </p>
+                    </div>
+                    <div class="col ">
+                    <p> Your remaining guesses:... <span id="remain"></span> times </p>
+                        <h3 id="gameover"> </h3>
+                    </div>
+                    <div class="col ">
+                      <p> SCORE BOARD </p>
+                      <h4 > Your highest scored round is:   </h4>
+                      <h4 id="highestscore">  </h4>
+                          <h4 id="score"> </h4>
+                      </div>
+                    </div>
+                      
+                    </div>
+                   </div>
+                </div> 
+                  </div>
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>   
+</body>
+</html>
